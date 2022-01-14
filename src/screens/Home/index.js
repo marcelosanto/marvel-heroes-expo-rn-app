@@ -1,5 +1,6 @@
 import React from 'react'
 import { SafeAreaView, Text, View } from 'react-native'
+import CardList from '../../components/CardList'
 import Filter from '../../components/Filter'
 import Header from '../../components/Header'
 
@@ -10,6 +11,7 @@ export default () => {
     <SafeAreaView style={styles.container}>
       <Header />
       <Filter />
+      <CardList />
     </SafeAreaView>
   )
 }
