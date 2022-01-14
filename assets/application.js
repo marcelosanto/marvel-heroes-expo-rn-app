@@ -26,11 +26,11 @@ export const data = {
         velocity: 80,
       },
       movies: [
-        './movies/captain-america-3.jpg',
-        './movies/spider-man-homecoming.jpg',
-        './movies/avengers-3.jpg',
-        './movies/avengers-4.jpg',
-        './movies/spider-man-far-from-home.jpg',
+        'https://i.ytimg.com/vi/oroMCU8SaZE/movieposter_en.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/8/87/Spider-Man_Homecoming.png',
+        'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
+        'https://musicart.xboxlive.com/7/e80f5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080',
       ],
     },
     {
@@ -60,10 +60,10 @@ export const data = {
         velocity: 80,
       },
       movies: [
-        './movies/captain-america-3.jpg',
+        'https://i.ytimg.com/vi/oroMCU8SaZE/movieposter_en.jpg',
         './movies/black-panther.jpg',
-        './movies/avengers-3.jpg',
-        './movies/avengers-4.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
       ],
     },
     {
@@ -93,16 +93,16 @@ export const data = {
         velocity: 80,
       },
       movies: [
-        './movies/iron-man-1.jpg',
-        './movies/iron-man-2.jpg',
-        './movies/hulk.jpg',
-        './movies/avengers-1.jpg',
-        './movies/iron-man-3.jpg',
-        './movies/avengers-2.jpg',
-        './movies/captain-america-3.jpg',
-        './movies/spider-man-homecoming.jpg',
-        './movies/avengers-3.jpg',
-        './movies/avengers-4.jpg',
+        'https://m.media-amazon.com/images/I/41W6U03Kr4L._AC_SY445_.jpg',
+        'https://m.media-amazon.com/images/I/51BOoBOooAL._AC_SY445_.jpg',
+        'https://flxt.tmsimg.com/assets/p176337_p_v10_ag.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/thumb/6/69/The_Avengers_Cartaz.jpg/250px-The_Avengers_Cartaz.jpg',
+        'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9a/Poster_de_HdF_3.jpg/revision/latest?cb=20200704204728&path-prefix=pt-br',
+        'http://www.businesskorea.co.kr/news/photo/201403/2642_3877_0.jpg',
+        'https://i.ytimg.com/vi/oroMCU8SaZE/movieposter_en.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/8/87/Spider-Man_Homecoming.png',
+        'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
       ],
     },
   ],
@@ -110,7 +110,8 @@ export const data = {
     {
       name: 'Caveira Vermelha',
       alterEgo: 'Jöhann Schmidt',
-      imagePath: './chars/red-skull.png',
+      imagePath:
+        'https://rollingstone.uol.com.br/media/_versions/caveira-vermelha-e1489590679881_widelg.jpg',
       biography:
         'Jöhann Schmidt é filho de um camponês analfabeto e bêbado. Sua mãe morreu ao lhe dar a luz e seu pai, que tentou afogá-lo por causa disso em uma bacia e foi contido pelo obstetra, logo em seguida suicídou-se. Schmidt fugiu aos sete anos do orfanato onde foi criado, cresceu nas ruas da Alemanha, sendo preso várias vezes por pequenos crimes. Hitler encontrou Schmidt quando ele trabalhava como camareiro em um hotel no qual o líder nazista se hospedou. Hitler o treinou pessoalmente, oferecendo ao final do processo uma máscara vermelha no formato de um crânio e o nome que carrega até hoje.',
       caracteristics: {
@@ -132,12 +133,16 @@ export const data = {
         endurance: 65,
         velocity: 80,
       },
-      movies: ['./movies/captain-america-1.jpg', './movies/avengers-4.jpg'],
+      movies: [
+        'https://m.media-amazon.com/images/I/51A27-HV9jL.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
+      ],
     },
     {
       name: 'Doutor Destino',
       alterEgo: 'Victor Von Doom',
-      imagePath: './chars/dr-doom.png',
+      imagePath:
+        'https://br.web.img2.acsta.net/pictures/18/02/28/21/12/2146204.jpg',
       biography:
         'Victor nasceu em Haasenstadt, um vilarejo que fica na Latvéria, filho de Werner von Doom, um conhecido curandeiro cigano, e Cynthia von Doom, que diziam ser uma bruxa. Sua mãe foi morta quando ele ainda era uma criança. Ela tentara adquirir poder para proteger sua tribo cigana da perseguição que sofriam por parte do governo vigente sobre a Latvéria. Cynthia tentou obter esse poder através de um trato com o demônio Mephisto. Victor von Doom ficou aos cuidados de Bóris, um dos membros da comunidade cigana de que pertencia. Victor jurou que faria o mundo todo pagar pela morte de seus pais.',
       caracteristics: {
@@ -160,14 +165,15 @@ export const data = {
         velocity: 70,
       },
       movies: [
-        './movies/fantastic-four-1.jpg',
-        './movies/fantastic-four-2.jpg',
+        'https://br.web.img3.acsta.net/pictures/14/04/02/18/17/010475.jpg',
+        'https://sm1.imgs.sapo.pt/mb/w/3/s/VCiq2HaHBLU1K9lWoZfaNAIE_.jpg',
       ],
     },
     {
       name: 'Duende Verde',
       alterEgo: 'Norman Osborn',
-      imagePath: './chars/green-goblin.png',
+      imagePath:
+        'https://cidadedoheroi.com.br/wp-content/uploads/2021/12/duende-verde-capa.jpg',
       biography:
         'Filho do rico empresário Amberson Osborn, Norman foi vítima de abuso quando o pai perdeu seu dinheiro e se tornou alcóolatra e violento, o que iniciou suas tendências homicidas e o desejo de ser um chefe de família melhor. Norman estudou química, administração e engenharia elétrica na faculdade, onde conheceu sua futura esposa Emily, mãe de seu filho Harry Osborn. Após formar, Norman se uniu a seu professor Mendel Stromm para fundar a empresa química Oscorp, que logo o tornaria milionário de novo, porém quando Emily morre Norman fica abalado a ponto de focar mais e mais no trabalho, neglicenciando a criação do filho.',
       caracteristics: {
@@ -189,14 +195,15 @@ export const data = {
         endurance: 50,
         velocity: 65,
       },
-      movies: ['./movies/spider-man-1.jpg'],
+      movies: ['https://br.web.img3.acsta.net/pictures/bzp/01/29007.jpg'],
     },
   ],
   antiHeroes: [
     {
       name: 'Deadpool',
       alterEgo: 'Wade Wilson',
-      imagePath: './chars/deadpool.png',
+      imagePath:
+        'https://ogimg.infoglobo.com.br/rioshow/24884446-8f3-e73/FT1086A/deadpool-primeiro-filme.jpeg',
       biography:
         'O jovem Wade saiu do controle quando sua mãe morreu de câncer quando ele tinha 6 anos de idade, tornando-o um garoto solitário e atormentado, sem nenhuma explicação. Seu pai – que era um bêbado do exército – o espancava e o tratava mal. Assim, com uma vida desestruturada, Wade tornou-se um delinquente na adolescência. Um dia chegou a agredir friamente seu pai com uma garrafa mostrando alguns traços de insanidade, matando-o no processo. Depois disso, Wade iniciou sua carreira de mercenário. Ele aceitava assassinar apenas aqueles merecedores da morte.',
       caracteristics: {
@@ -218,12 +225,16 @@ export const data = {
         endurance: 90,
         velocity: 70,
       },
-      movies: ['./movies/deadpool-1.jpg', './movies/deadpool-2.jpg'],
+      movies: [
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fcinecartaz.publico.pt%2FFilme%2F357024_deadpool&psig=AOvVaw27nFTSOcXccI1_P9e0S50P&ust=1642282340521000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCz_8yYsvUCFQAAAAAdAAAAABAJ',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnb5YKfpQ_jTjiP-3BbP7bROn_vH-q4HnQtuUzqCThNZ3J7WzsepXpm2kqF3jeaQnBv8&usqp=CAU',
+      ],
     },
     {
       name: 'Venom',
       alterEgo: 'Eddie Brock',
-      imagePath: './chars/venom.png',
+      imagePath:
+        'https://imagens.brasil.elpais.com/resizer/jHr2DlEiPCDVgrjv1lxqYcOQRvA=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/GNF5BL5KFJTZPGBE2RJTBZMFUQ.jpg',
       biography:
         "Venom é o ser resultante da simbiose entre uma criatura alienígena e o jornalista Eddie Brock. Apesar de já ter tido minisséries próprias, a maioria de suas aparições é como inimigo do personagem Homem Aranha. A característica marcante de Venom, além do uniforme negro, é a desproporcional e assustadora mandíbula. Antes de fundir-se ao simbionte e tornar-se o Venom, Eddie Brock era um repórter do jornal Clarim Diário. A origem do simbionte alienígena foi mostrada no evento intitulado Guerras Secretas, quando foi usado como 'uniforme' pelo próprio Homem Aranha.",
       caracteristics: {
@@ -245,12 +256,16 @@ export const data = {
         endurance: 80,
         velocity: 75,
       },
-      movies: ['./movies/venom.jpg'],
+      movies: [
+        'https://upload.wikimedia.org/wikipedia/pt/b/b7/Venom_2018.jpg',
+        'https://cinemaplanet.pt/wp-content/uploads/2018/09/Venom_Hardy_poster.jpg',
+      ],
     },
     {
       name: 'Justiceiro',
       alterEgo: 'Francis Castle',
-      imagePath: './chars/punisher.png',
+      imagePath:
+        'http://pm1.narvii.com/6407/c87ec578e0ae9fa151f2bf908659d8daa46eb3b4_00.jpg',
       biography:
         'O Justiceiro é um vigilante, que considera crimes como assassinato, sequestro e tortura aceitáveis como táticas de combate ao crime. Motivado pela morte de sua família, que foi morta pelos capangas do mafioso Costa, quando testemunharam uma execução proveniente de uma guerra entre gangues no Central Park, em Nova York. O Justiceiro pode ser considerado um homem-guerra entre todos os criminosos em geral, conhecendo quase todo o tipo de armamento. Como veterano de guerra, Castle é um mestre em táticas furtivas e emboscadas, bem como o manuseio de várias armas.',
       caracteristics: {
@@ -272,14 +287,17 @@ export const data = {
         endurance: 60,
         velocity: 65,
       },
-      movies: ['./movies/punisher.jpg'],
+      movies: [
+        'https://upload.wikimedia.org/wikipedia/pt/1/17/The_Punisher_season_2_poster.jpg',
+      ],
     },
   ],
   aliens: [
     {
       name: 'Thanos',
       alterEgo: 'Deviant',
-      imagePath: './chars/thanos.png',
+      imagePath:
+        'https://static.wikia.nocookie.net/marvel/images/b/bc/Thanos_%28Earth-199999%29_from_Avengers_Infinity_War_-_The_Official_Movie_Special_001.jpg/revision/latest?cb=20190503185709&path-prefix=pt-br',
       biography:
         "A lua Titã era governada por Mentor (A'Lars), quando então reinava paz e tecnologia. Mentor tinha dois filhos: Eros e Thanos. O primeiro tinha o poder de estimular os centros de prazer de seres vivos sencientes. O outro, entretanto, era bem mais poderoso e almejava ainda mais. Assim, Thanos se voltou contra seu pai e contra o reino, forçando Mentor a procurar Kronos. Este criou Drax, o Destruidor, para que ele eliminasse Thanos. Mas o Destruidor falhou de modo que Thanos conseguiu conquistar o trono de Titã. Em seguida, partiu pela Via Láctea, com o intuito de apoderar-se do Cubo Cósmico, um objeto que satisfaz quaisquer desejos de seu possuidor.",
       caracteristics: {
@@ -302,15 +320,16 @@ export const data = {
         velocity: 80,
       },
       movies: [
-        './movies/guardians-of-the-galaxy-1.jpg',
-        './movies/avengers-3.jpg',
-        './movies/avengers-4.jpg',
+        'https://m.media-amazon.com/images/I/61AxNJzPg8L.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
       ],
     },
     {
       name: 'Ronan',
       alterEgo: 'Kree',
-      imagePath: './chars/ronan.png',
+      imagePath:
+        'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/cd/RonanGotgTextlessPoster.jpg',
       biography:
         "Ronan nasceu no planeta Hala, capital do Império alienígena Kree na Grande Nuvem de Magalhães; é membro do 'Conselho dos Acusadores', que são o equivalente a governadores, militares e juristas. Sua ascensão na hierarquia foi extraordinária, logo acabou se tornando o terceiro mais poderoso do Império Kree. A entidade conhecida como: 'Inteligência Suprema' o nomeou a 'Supremo Acusador do Império Kree', e neste cargo ele ficou conhecido simplesmente como Ronan, o Acusador. Mais tarde, Ronan foi enviado à Terra para investigar a derrota do robô Sentry - 459 para Quarteto Fantástico.",
       caracteristics: {
@@ -333,14 +352,15 @@ export const data = {
         velocity: 75,
       },
       movies: [
-        './movies/captain-marvel.jpg',
-        './movies/guardians-of-the-galaxy-1.jpg',
+        'https://br.web.img2.acsta.net/pictures/19/02/04/18/35/1468867.jpg',
+        'https://m.media-amazon.com/images/I/61AxNJzPg8L.jpg',
       ],
     },
     {
       name: 'Talos',
       alterEgo: 'Skrull',
-      imagePath: './chars/talos.png',
+      imagePath:
+        'https://www.einerd.com.br/wp-content/uploads/2020/08/Capit%C3%A3-Marvel-Talos-Skrull-capa.jpg',
       biography:
         "Talos, considerado um Mutante pelo seu povo, é um Skrull que nasceu sem a capacidade de moldar a mudança. Ele compensou ao tornar-se um dos Skrulls mais temidos do seu planeta, ganhando o título de Talos, o Indomado, devido à sua natureza selvagem e sinistra. Contudo, depois de ter sido capturado pelos Kree, recusou-se a cometer suicídio na esperança de ganhar glória para pela sua sobrevivência. Em vez disso, foi ridicularizado e renomeado como o mais humilhante 'Talos, o Domado'. Talos foi chamado ao planeta Godthab Omega por Glorian, onde acabou lutando contra Devos, o Devastador.",
       caracteristics: {
@@ -362,14 +382,17 @@ export const data = {
         endurance: 50,
         velocity: 80,
       },
-      movies: ['./movies/captain-marvel.jpg'],
+      movies: [
+        'https://br.web.img2.acsta.net/pictures/19/02/04/18/35/1468867.jpg',
+      ],
     },
   ],
   humans: [
     {
       name: 'Howard Stark',
       alterEgo: 'Homem de Ferro',
-      imagePath: './chars/howard-stark.png',
+      imagePath:
+        'https://4.bp.blogspot.com/-ZI2ufBuD3y4/VCsfeZFwA2I/AAAAAAAAIco/iOqEGCOKFnQ/s1600/xz.PNG',
       biography:
         "O filho do Sr. Howard Stark, Howard Stark nasceu em Richford, Nova York. Um inventor ávido e genial desde pequeno, ele foi um cientista brilhante ao longo de sua vida. Ele e seu pai trabalharam em vários projetos e, mais tarde fundaram as Indústrias Stark. Ao longo de sua idade adulta, Stark trabalhou em vários projetos governamentais, como o projeto do Capitão América na Primeira Guerra Mundial com John Crowe Ransom; O Projeto Manhattan na Segunda Guerra Mundial; e os robôs 'Arsenal', escondidos no subsolo de sua mansão. Durante a década de 1950, Stark foi um agente da Shield, em parceria com Nathaniel Richards.",
       caracteristics: {
@@ -392,18 +415,19 @@ export const data = {
         velocity: 30,
       },
       movies: [
-        './movies/captain-america-1.jpg',
-        './movies/iron-man-1.jpg',
-        './movies/iron-man-2.jpg',
-        './movies/captain-america-2.jpg',
-        './movies/ant-man.jpg',
-        './movies/captain-america-3.jpg',
+        'https://m.media-amazon.com/images/I/51A27-HV9jL.jpg',
+        'https://m.media-amazon.com/images/I/41W6U03Kr4L._AC_SY445_.jpg',
+        'https://m.media-amazon.com/images/I/51BOoBOooAL._AC_SY445_.jpg',
+        'http://d3ugyf2ht6aenh.cloudfront.net/stores/148/504/products/capitaoamerica21-0d8516343e11d1f2e815197765921813-640-0.jpg',
+        'https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_FMjpg_UX1000_.jpg',
+        'https://i.ytimg.com/vi/oroMCU8SaZE/movieposter_en.jpg',
       ],
     },
     {
       name: 'Mary Jane',
       alterEgo: 'Homem Aranha',
-      imagePath: './chars/mary-jane.png',
+      imagePath:
+        'https://s2.glbimg.com/-DcyTghL3R-l1Cg_wEZ7zOk5o9g=/0x0:991x1500/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/9/9/S26Ol1TbS388VCZErEEQ/kirsten-dunst-mary-jan.jpg',
       biography:
         "Mary Jane é retratada como uma ruiva extremamente bonita, de olhos verdes e foi o principal interesse romântico de Peter Parker durante a maior parte do tempo. Inicialmente, ela competiu com outras pelo afeto de Peter, com destaque para Gwen Stacy e a Gata Negra. As primeiras edições de O Incrível Homem Aranha apresentavam uma piada correndo sobre Peter se esquivando das tentativas de sua tia May de lhe arranjar 'aquela simpática garota Watson do lado', que Peter ainda não tinha conhecido e assumiu que não seria o seu tipo, já que sua tia gostava dela. Mais tarde Peter começa a namorar com Mary Jane.",
       caracteristics: {
@@ -426,15 +450,16 @@ export const data = {
         velocity: 25,
       },
       movies: [
-        './movies/spider-man-1.jpg',
-        './movies/spider-man-2.jpg',
-        './movies/spider-man-3.jpg',
+        'https://br.web.img3.acsta.net/pictures/bzp/01/29007.jpg',
+        'https://i.ebayimg.com/images/g/yyQAAOSwblZZJFYJ/s-l300.jpg',
+        'https://cinemacomrapadura.com.br/imagens/2013/09/20130903-spiderman-3-poster.jpg',
       ],
     },
     {
       name: 'Happy Hogan',
       alterEgo: 'Homem de Ferro',
-      imagePath: './chars/happy-hogan.png',
+      imagePath:
+        'https://i.pinimg.com/originals/92/e8/cd/92e8cdb007c6e080583ffdf322ee15cb.jpg',
       biography:
         "Happy Hogan é um ex-campeão de boxe que salvou Tony Stark durante acidente numa corrida de 'stock car'. Em retribuição, Stark o contratou como seu motorista e guarda-costas pessoal. No início, Hogan era um personagem cômico, tanto física quanto psicologicamente. Tinha um aspecto 'bronco', típicos de um boxeador, com orelhas em formato couve-flor e pescoço largo. Com o tempo, os autores foram suavizando sua figura. Seu visual “leão de chácara ”foi sendo abandonado e ele se tornou mais magro, mais inteligente e boa-pinta. O apelido irônico 'Happy' vem da época em que ele lutava boxe, porque nunca sorria.",
       caracteristics: {
@@ -457,13 +482,13 @@ export const data = {
         velocity: 50,
       },
       movies: [
-        './movies/iron-man-1.jpg',
-        './movies/iron-man-2.jpg',
-        './movies/iron-man-3.jpg',
-        './movies/spider-man-homecoming.jpg',
-        './movies/avengers-3.jpg',
-        './movies/avengers-4.jpg',
-        './movies/spider-man-far-from-home.jpg',
+        'https://m.media-amazon.com/images/I/41W6U03Kr4L._AC_SY445_.jpg',
+        'https://m.media-amazon.com/images/I/51BOoBOooAL._AC_SY445_.jpg',
+        'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9a/Poster_de_HdF_3.jpg/revision/latest?cb=20200704204728&path-prefix=pt-br',
+        'https://upload.wikimedia.org/wikipedia/pt/8/87/Spider-Man_Homecoming.png',
+        'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
+        'https://musicart.xboxlive.com/7/e80f5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080',
       ],
     },
   ],

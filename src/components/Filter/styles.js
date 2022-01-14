@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'column',
     marginLeft: 40,
     marginRight: 20,
+    marginTop: 20,
   },
   filter: {
     flexDirection: 'row',

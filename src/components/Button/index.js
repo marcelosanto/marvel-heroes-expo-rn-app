@@ -1,12 +1,16 @@
 import React from 'react'
 import { TouchableOpacity, Text, View } from 'react-native'
 import { SvgXml } from 'react-native-svg'
-import { vilain } from '../../../assets/icons/icons'
 import { styles } from './styles'
 
-export default ({ icon, backColor }) => {
+export default ({ icon, backColor, color }) => {
   return (
-    <TouchableOpacity style={backColor ? styles.backButton : 'none'}>
+    <TouchableOpacity
+      style={[
+        styles.backButton,
+        { backgroundColor: backColor ? color : 'none' },
+      ]}
+    >
       <SvgXml width="40" height="40" xml={icon} />
     </TouchableOpacity>
   )

@@ -3,16 +3,13 @@ import { StatusBar, StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
-    margin: 40,
+    marginVertical: 20,
+    paddingLeft: 20,
+    height: 360,
   },
   containerTitle: {
+    marginHorizontal: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',
-  },
-  containerCard: { marginVertical: 20, marginRight: 20 },
-  image: { width: 180, height: 300, borderRadius: 25 },
-  containerCardTitle: {
-    marginTop: -100,
-    marginLeft: 10,
   },
 })

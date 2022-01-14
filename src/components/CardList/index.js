@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native'
 import React from 'react'
 import {
   SafeAreaView,
@@ -11,15 +12,18 @@ import CardListItem from '../CardListItem'
 
 import { styles } from './styles'
 
-import { data } from '../../../assets/application'
+export default ({ title, data }) => {
+  const navigation = useNavigation()
 
-export default () => {
-  console.log(data.humans.length)
+  const handleEnterPerfil = (perfil) => {
+    console.log(perfil.item.name)
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.containerTitle}>
         <Text style={{ color: 'red', fontWeight: 'bold', fontSize: 20 }}>
-          Herois
+          {title}
         </Text>
         <TouchableOpacity>
           <Text style={{ color: 'gray', fontSize: 15 }}>Ver tudo</Text>
@@ -27,9 +31,11 @@ export default () => {
       </View>
       <FlatList
         horizontal={true}
-        data={data.heroes}
-        renderItem={(item) => (
-          <CardListItem item={item} key={item.index.toString()} />
+        data={data}
+        showsHorizontalScrollIndicator={false}
+        keyExtractor={(_, index) => index}
+        renderItem={(item, index) => (
+          <CardListItem item={item} onPress={() => handleEnterPerfil(item)} />
         )}
       />
     </SafeAreaView>

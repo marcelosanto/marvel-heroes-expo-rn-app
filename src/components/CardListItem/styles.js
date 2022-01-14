@@ -8,7 +8,9 @@ export const styles = StyleSheet.create({
   containerCard: { marginVertical: 20, marginRight: 20 },
   image: { width: 180, height: 300, borderRadius: 25 },
   containerCardTitle: {
-    marginTop: -100,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    width: '70%',
+    marginTop: -130,
     marginLeft: 10,
   },
 })
