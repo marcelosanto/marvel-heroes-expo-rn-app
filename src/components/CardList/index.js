@@ -1,5 +1,5 @@
 import { useNavigation } from '@react-navigation/native'
-import React from 'react'
+import React, { useContext } from 'react'
 import {
   SafeAreaView,
   Text,
@@ -11,12 +11,21 @@ import {
 import CardListItem from '../CardListItem'
 
 import { styles } from './styles'
+import { UserContext } from '../../context/UserContext'
 
 export default ({ title, data }) => {
   const navigation = useNavigation()
+  const { state, dispatch } = useContext(UserContext)
 
   const handleEnterPerfil = (perfil) => {
-    console.log(perfil.item.name)
+    dispatch({
+      type: 'setPerfil',
+      payload: {
+        perfil: perfil,
+      },
+    })
+
+    navigation.navigate('Perfil')
   }
 
   return (
