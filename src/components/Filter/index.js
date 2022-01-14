@@ -21,11 +21,11 @@ export default () => {
         <Text style={styles.textTitle}>Personagem</Text>
       </View>
       <View style={styles.filter}>
-        <Button icon={hero} />
-        <Button icon={vilain} />
-        <Button icon={antihero} />
-        <Button icon={alien} />
-        <Button icon={human} />
+        <Button icon={hero} backColor={true} />
+        <Button icon={vilain} backColor={true} />
+        <Button icon={antihero} backColor={true} />
+        <Button icon={alien} backColor={true} />
+        <Button icon={human} backColor={true} />
       </View>
     </SafeAreaView>
   )
