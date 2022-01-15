@@ -11,6 +11,22 @@ export default ({ navigation }) => {
       payload: {
         filterHeroi: true,
       },
+      type: 'setFilterVilao',
+      payload: {
+        filterVilao: true,
+      },
+      type: 'setFilterAntiHeroi',
+      payload: {
+        filterAntiHeroi: true,
+      },
+      type: 'setFilterAlien',
+      payload: {
+        filterAlien: true,
+      },
+      type: 'setFilterHumano',
+      payload: {
+        filterHumano: true,
+      },
     })
 
     navigation.reset({

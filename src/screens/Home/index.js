@@ -11,11 +11,26 @@ import { UserContext } from '../../context/UserContext'
 
 export default () => {
   const { state } = useContext(UserContext)
+
   const [hero, setHero] = useState()
+  const [vilao, setVilao] = useState()
+  const [antiheroi, setAntiheroi] = useState()
+  const [alienn, setAlienn] = useState()
+  const [humano, setHumano] = useState()
 
   useEffect(() => {
     setHero(state.filterHeroi)
-  }, [state.filterHeroi])
+    setVilao(state.filterVilao)
+    setAntiheroi(state.filterAntiHeroi)
+    setAlienn(state.filterAlien)
+    setHumano(state.filterHumano)
+  }, [
+    state.filterHeroi,
+    state.filterVilao,
+    state.filterAntiHeroi,
+    state.filterAlien,
+    state.filterHumano,
+  ])
 
   return (
     <SafeAreaView style={styles.container}>
@@ -23,10 +38,10 @@ export default () => {
       <ScrollView>
         <Filter />
         {hero && <CardList title={'Heróis'} data={data.heroes} />}
-        <CardList title={'Vilões'} data={data.villains} />
-        <CardList title={'Anti-heróis'} data={data.antiHeroes} />
-        <CardList title={'Alienigenas'} data={data.aliens} />
-        <CardList title={'Humanos'} data={data.humans} />
+        {vilao && <CardList title={'Vilões'} data={data.villains} />}
+        {antiheroi && <CardList title={'Anti-heróis'} data={data.antiHeroes} />}
+        {alienn && <CardList title={'Alienigenas'} data={data.aliens} />}
+        {humano && <CardList title={'Humanos'} data={data.humans} />}
       </ScrollView>
     </SafeAreaView>
   )

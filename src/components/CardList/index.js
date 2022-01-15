@@ -28,6 +28,8 @@ export default ({ title, data }) => {
     navigation.navigate('Perfil')
   }
 
+  let generateRandomNum = () => 'key' + Math.floor(Math.random() * 1001)
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.containerTitle}>
@@ -42,8 +44,8 @@ export default ({ title, data }) => {
         horizontal={true}
         data={data}
         showsHorizontalScrollIndicator={false}
-        keyExtractor={(_, index) => index}
-        renderItem={(item, index) => (
+        keyExtractor={(item, index) => 'key' + Math.floor(Math.random() * 1001)}
+        renderItem={(item) => (
           <CardListItem item={item} onPress={() => handleEnterPerfil(item)} />
         )}
       />
