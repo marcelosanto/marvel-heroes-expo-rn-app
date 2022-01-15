@@ -6,6 +6,7 @@ import {
   ImageBackground,
   View,
   Dimensions,
+  Image,
 } from 'react-native'
 import { SvgXml } from 'react-native-svg'
 
@@ -17,8 +18,15 @@ import BarProgress from '../../components/BarProgress'
 
 export default () => {
   const { state } = useContext(UserContext)
-  const { alterEgo, name, imagePath, biography, caracteristics, abilities } =
-    state.perfil.item
+  const {
+    alterEgo,
+    name,
+    imagePath,
+    biography,
+    caracteristics,
+    abilities,
+    movies,
+  } = state.perfil.item
 
   const windowWidth = Dimensions.get('window').width
   const windowHeight = Dimensions.get('window').height
@@ -112,7 +120,9 @@ export default () => {
             />
             <BarProgress title={'Velocidade'} porcetagem={abilities.velocity} />
           </View>
-          <View style={{ backgroundColor: 'red', width: '100%', height: 700 }}>
+          <View
+            style={{ backgroundColor: 'black', width: '100%', height: 400 }}
+          >
             <Text
               style={{
                 color: 'white',
@@ -123,6 +133,19 @@ export default () => {
             >
               Filmes
             </Text>
+            <ScrollView horizontal={true}>
+              {movies.map((item) => (
+                <Image
+                  style={{
+                    borderRadius: 25,
+                    width: 200,
+                    height: 300,
+                    margin: 20,
+                  }}
+                  source={{ uri: item }}
+                />
+              ))}
+            </ScrollView>
           </View>
         </View>
       </ScrollView>

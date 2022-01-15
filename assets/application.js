@@ -61,7 +61,7 @@ export const data = {
       },
       movies: [
         'https://i.ytimg.com/vi/oroMCU8SaZE/movieposter_en.jpg',
-        './movies/black-panther.jpg',
+        'https://odebateon.com.br/wp-content/uploads/2018/02/Pantera-Negra.jpg',
         'https://upload.wikimedia.org/wikipedia/pt/9/90/Avengers_Infinity_War.jpg',
         'https://upload.wikimedia.org/wikipedia/pt/9/9b/Avengers_Endgame.jpg',
       ],
