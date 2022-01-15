@@ -427,7 +427,7 @@ export const data = {
       name: 'Mary Jane',
       alterEgo: 'Homem Aranha',
       imagePath:
-        'https://s2.glbimg.com/-DcyTghL3R-l1Cg_wEZ7zOk5o9g=/0x0:991x1500/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/9/9/S26Ol1TbS388VCZErEEQ/kirsten-dunst-mary-jan.jpg',
+        'http://pm1.narvii.com/7301/b8c0693c66e781be6f85dde0c3ae13ae6091568er1-736-920v2_uhq.jpg',
       biography:
         "Mary Jane é retratada como uma ruiva extremamente bonita, de olhos verdes e foi o principal interesse romântico de Peter Parker durante a maior parte do tempo. Inicialmente, ela competiu com outras pelo afeto de Peter, com destaque para Gwen Stacy e a Gata Negra. As primeiras edições de O Incrível Homem Aranha apresentavam uma piada correndo sobre Peter se esquivando das tentativas de sua tia May de lhe arranjar 'aquela simpática garota Watson do lado', que Peter ainda não tinha conhecido e assumiu que não seria o seu tipo, já que sua tia gostava dela. Mais tarde Peter começa a namorar com Mary Jane.",
       caracteristics: {
