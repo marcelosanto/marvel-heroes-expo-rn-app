@@ -14,7 +14,14 @@ export default () => (
       component={Home}
     />
     <Stack.Screen
-      options={{ headerTitle: false }}
+      options={{
+        headerTransparent: true,
+        headerTintColor: 'white',
+        title: '',
+        headerStyle: {
+          backgroundColor: 'rgba(0, 0, 0, .15)',
+        },
+      }}
       name="Perfil"
       component={Perfil}
     />

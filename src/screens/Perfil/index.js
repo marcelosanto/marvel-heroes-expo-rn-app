@@ -73,15 +73,21 @@ export default () => {
             >
               <View>
                 <SvgXml width="40" height="40" xml={age} />
-                <Text style={{ color: 'white' }}>30 anos</Text>
+                <Text style={{ color: 'white' }}>
+                  {caracteristics.birth - 2022} anos
+                </Text>
               </View>
               <View>
                 <SvgXml width="40" height="40" xml={weight} />
-                <Text style={{ color: 'white' }}>78Kg</Text>
+                <Text style={{ color: 'white' }}>
+                  {caracteristics.weight.value}Kg
+                </Text>
               </View>
               <View>
                 <SvgXml width="40" height="40" xml={height} />
-                <Text style={{ color: 'white' }}>1.80m</Text>
+                <Text style={{ color: 'white' }}>
+                  {caracteristics.height.value}m
+                </Text>
               </View>
               <View>
                 <SvgXml width="40" height="40" xml={universe} />
@@ -104,6 +110,7 @@ export default () => {
                 fontSize: 30,
                 fontWeight: 'bold',
                 marginLeft: 20,
+                marginTop: 20,
               }}
             >
               Habilidades
