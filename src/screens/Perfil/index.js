@@ -74,7 +74,7 @@ export default () => {
               <View>
                 <SvgXml width="40" height="40" xml={age} />
                 <Text style={{ color: 'white' }}>
-                  {caracteristics.birth - 2022} anos
+                  {2022 - caracteristics.birth} anos
                 </Text>
               </View>
               <View>
