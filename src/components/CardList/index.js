@@ -44,7 +44,7 @@ export default ({ title, data }) => {
         horizontal={true}
         data={data}
         showsHorizontalScrollIndicator={false}
-        keyExtractor={(item, index) => 'key' + Math.floor(Math.random() * 1001)}
+        keyExtractor={(item) => item.key}
         renderItem={(item) => (
           <CardListItem item={item} onPress={() => handleEnterPerfil(item)} />
         )}

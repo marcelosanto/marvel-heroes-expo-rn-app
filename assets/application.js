@@ -3,6 +3,7 @@ export const data = {
     {
       name: 'Homem Aranha',
       alterEgo: 'Peter Parker',
+      key: 1,
       imagePath: 'https://pbs.twimg.com/media/EgjAbBMWAAErtzd.jpg',
       biography:
         'Em Forest Hills, Queens, Nova York, o estudante de ensino médio, Peter Parker, é um cientista orfão que vive com seu tio Ben e tia May. Ele é mordido por uma aranha radioativa em uma exposição científica e adquire a agilidade e a força proporcional de um aracnídeo. Junto com a super força, Parker ganha a capacidade de andar nas paredes e tetos. Através de sua habilidade nativa para a ciência, ele desenvolve um aparelho que o permitir lançar teias artificiais. Inicialmente buscando capitalizar suas novas habilidades, Parker cria um traje e, como Homem Aranha, torna-se uma estrela de televisão.',
@@ -36,6 +37,7 @@ export const data = {
     {
       name: 'Pantera Negra',
       alterEgo: "T'Challa",
+      key: 2,
       imagePath:
         'https://cdn.vox-cdn.com/thumbor/RWB7_mSBFOPpPyzDfyLGGutVoek=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22719421/MarvelsAvengers_E3SEP_BlackPanther.jpg',
       biography:
@@ -69,6 +71,7 @@ export const data = {
     {
       name: 'Homem de Ferro',
       alterEgo: 'Tony Stark',
+      key: 3,
       imagePath:
         'http://pm1.narvii.com/6708/1e6998504a16d5ff53054d917b1b190115fdee44_00.jpg',
       biography:
@@ -110,6 +113,7 @@ export const data = {
     {
       name: 'Caveira Vermelha',
       alterEgo: 'Jöhann Schmidt',
+      key: 4,
       imagePath:
         'https://rollingstone.uol.com.br/media/_versions/caveira-vermelha-e1489590679881_widelg.jpg',
       biography:
@@ -141,6 +145,7 @@ export const data = {
     {
       name: 'Doutor Destino',
       alterEgo: 'Victor Von Doom',
+      key: 5,
       imagePath:
         'https://br.web.img2.acsta.net/pictures/18/02/28/21/12/2146204.jpg',
       biography:
@@ -172,6 +177,7 @@ export const data = {
     {
       name: 'Duende Verde',
       alterEgo: 'Norman Osborn',
+      key: 6,
       imagePath:
         'https://cidadedoheroi.com.br/wp-content/uploads/2021/12/duende-verde-capa.jpg',
       biography:
@@ -202,6 +208,7 @@ export const data = {
     {
       name: 'Deadpool',
       alterEgo: 'Wade Wilson',
+      key: 7,
       imagePath:
         'https://ogimg.infoglobo.com.br/rioshow/24884446-8f3-e73/FT1086A/deadpool-primeiro-filme.jpeg',
       biography:
@@ -233,6 +240,7 @@ export const data = {
     {
       name: 'Venom',
       alterEgo: 'Eddie Brock',
+      key: 8,
       imagePath:
         'https://imagens.brasil.elpais.com/resizer/jHr2DlEiPCDVgrjv1lxqYcOQRvA=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/GNF5BL5KFJTZPGBE2RJTBZMFUQ.jpg',
       biography:
@@ -264,6 +272,7 @@ export const data = {
     {
       name: 'Justiceiro',
       alterEgo: 'Francis Castle',
+      key: 9,
       imagePath:
         'http://pm1.narvii.com/6407/c87ec578e0ae9fa151f2bf908659d8daa46eb3b4_00.jpg',
       biography:
@@ -296,6 +305,7 @@ export const data = {
     {
       name: 'Thanos',
       alterEgo: 'Deviant',
+      key: 10,
       imagePath:
         'https://static.wikia.nocookie.net/marvel/images/b/bc/Thanos_%28Earth-199999%29_from_Avengers_Infinity_War_-_The_Official_Movie_Special_001.jpg/revision/latest?cb=20190503185709&path-prefix=pt-br',
       biography:
@@ -328,6 +338,7 @@ export const data = {
     {
       name: 'Ronan',
       alterEgo: 'Kree',
+      key: 11,
       imagePath:
         'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/cd/RonanGotgTextlessPoster.jpg',
       biography:
@@ -359,6 +370,7 @@ export const data = {
     {
       name: 'Talos',
       alterEgo: 'Skrull',
+      key: 12,
       imagePath:
         'https://www.einerd.com.br/wp-content/uploads/2020/08/Capit%C3%A3-Marvel-Talos-Skrull-capa.jpg',
       biography:
@@ -391,6 +403,7 @@ export const data = {
     {
       name: 'Howard Stark',
       alterEgo: 'Homem de Ferro',
+      key: 13,
       imagePath:
         'https://4.bp.blogspot.com/-ZI2ufBuD3y4/VCsfeZFwA2I/AAAAAAAAIco/iOqEGCOKFnQ/s1600/xz.PNG',
       biography:
@@ -426,6 +439,7 @@ export const data = {
     {
       name: 'Mary Jane',
       alterEgo: 'Homem Aranha',
+      key: 14,
       imagePath:
         'http://pm1.narvii.com/7301/b8c0693c66e781be6f85dde0c3ae13ae6091568er1-736-920v2_uhq.jpg',
       biography:
@@ -458,6 +472,7 @@ export const data = {
     {
       name: 'Happy Hogan',
       alterEgo: 'Homem de Ferro',
+      key: 15,
       imagePath:
         'https://i.pinimg.com/originals/92/e8/cd/92e8cdb007c6e080583ffdf322ee15cb.jpg',
       biography:
