@@ -15,7 +15,6 @@ export const styles = StyleSheet.create({
     marginBottom: 40,
   },
   textTitle: {
-    fontSize: 30,
-    fontWeight: 'bold',
+    fontSize: 40,
   },
 })

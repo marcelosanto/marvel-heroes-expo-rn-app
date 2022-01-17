@@ -9,6 +9,8 @@ import {
   Image,
 } from 'react-native'
 import { SvgXml } from 'react-native-svg'
+import { useFonts } from 'expo-font'
+import AppLoading from 'expo-app-loading'
 
 import { styles } from './styles'
 
@@ -29,7 +31,18 @@ export default () => {
   } = state.perfil.item
 
   const windowWidth = Dimensions.get('window').width
-  const windowHeight = Dimensions.get('window').height
+  const windowHeight = Dimensions.get('window').height - 300
+
+  const [fontsLoaded, error] = useFonts({
+    'gilroy-regular': require('../../../assets/fonts/gilroy-regular.ttf'),
+    'gilroy-bold': require('../../../assets/fonts/gilroy-bold.ttf'),
+    'gilroy-heavy': require('../../../assets/fonts/gilroy-heavy.ttf'),
+    'gilroy-medium': require('../../../assets/fonts/gilroy-medium.ttf'),
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -54,11 +67,24 @@ export default () => {
                 marginLeft: 20,
                 width: 150,
                 marginBottom: 30,
+                backgroundColor: 'rgba(0, 0, 0, .15)',
               }}
             >
-              <Text style={{ color: 'white', fontSize: 20 }}>{alterEgo}</Text>
               <Text
-                style={{ color: 'white', fontSize: 30, fontWeight: 'bold' }}
+                style={{
+                  color: 'white',
+                  fontSize: 20,
+                  fontFamily: 'gilroy-regular',
+                }}
+              >
+                {alterEgo}
+              </Text>
+              <Text
+                style={{
+                  color: 'white',
+                  fontSize: 40,
+                  fontFamily: 'gilroy-heavy',
+                }}
               >
                 {name}
               </Text>
@@ -69,6 +95,7 @@ export default () => {
                 justifyContent: 'space-around',
                 width: 380,
                 marginBottom: 40,
+                backgroundColor: 'rgba(0, 0, 0, .15)',
               }}
             >
               <View>
@@ -96,11 +123,28 @@ export default () => {
                 </Text>
               </View>
             </View>
-            <View style={{ width: 350, marginHorizontal: 20 }}>
-              <Text style={{ color: 'white', fontSize: 20 }}>{biography}</Text>
-            </View>
           </ImageBackground>
 
+          <View
+            style={{
+              backgroundColor: 'black',
+              width: '100%',
+              height: 400,
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <Text
+              style={{
+                color: 'white',
+                fontSize: 20,
+                width: '90%',
+                fontFamily: 'gilroy-regular',
+              }}
+            >
+              {biography}
+            </Text>
+          </View>
           <View
             style={{ backgroundColor: 'black', width: '100%', height: 360 }}
           >
@@ -111,6 +155,7 @@ export default () => {
                 fontWeight: 'bold',
                 marginLeft: 20,
                 marginTop: 20,
+                fontFamily: 'gilroy-regular',
               }}
             >
               Habilidades
@@ -136,6 +181,7 @@ export default () => {
                 fontSize: 30,
                 fontWeight: 'bold',
                 marginLeft: 20,
+                fontFamily: 'gilroy-regular',
               }}
             >
               Filmes

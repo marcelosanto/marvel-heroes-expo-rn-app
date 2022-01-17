@@ -1,6 +1,9 @@
 import React, { useContext, useState, useEffect } from 'react'
 import { SafeAreaView, Text, View } from 'react-native'
 
+import { useFonts } from 'expo-font'
+import AppLoading from 'expo-app-loading'
+
 import { styles } from './styles'
 
 import {
@@ -72,12 +75,29 @@ export default () => {
     })
   }, [heroi, vilao, antiheroi, alienn, humano])
 
+  const [fontsLoaded, error] = useFonts({
+    'gilroy-regular': require('../../../assets/fonts/gilroy-regular.ttf'),
+    'gilroy-bold': require('../../../assets/fonts/gilroy-bold.ttf'),
+    'gilroy-heavy': require('../../../assets/fonts/gilroy-heavy.ttf'),
+    'gilroy-medium': require('../../../assets/fonts/gilroy-medium.ttf'),
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.containerTitle}>
-        <Text>Bem vindo ao Marvel Heroes</Text>
-        <Text style={styles.textTitle}>Escolha o seu</Text>
-        <Text style={styles.textTitle}>Personagem</Text>
+        <Text style={{ fontFamily: 'gilroy-regular', fontSize: 15 }}>
+          Bem vindo ao Marvel Heroes
+        </Text>
+        <Text style={[styles.textTitle, { fontFamily: 'gilroy-heavy' }]}>
+          Escolha o seu
+        </Text>
+        <Text style={[styles.textTitle, { fontFamily: 'gilroy-heavy' }]}>
+          Personagem
+        </Text>
       </View>
       <View style={styles.filter}>
         <Button
