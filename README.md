@@ -1,5 +1,9 @@
 # Marvel Heroes React Native
 
+### Sobre
+
+App feito com base no desafio do [DevChallenge](https://devchallenge.vercel.app/), Esse projeto foi feito com base no desafio proposto por DevChallenge, com a proposta de montar um App que consome a Api da Marvel.
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
